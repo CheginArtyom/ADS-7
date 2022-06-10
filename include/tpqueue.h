@@ -1,6 +1,6 @@
 // Copyright 2022 CheginArtyom
 
-#ifndef INCLUDE_TPQUEUE_H_
+#endif INCLUDE_TPQUEUE_H_
 #define INCLUDE_TPQUEUE_H_
 
 struct SYM {
