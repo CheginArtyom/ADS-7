@@ -15,7 +15,6 @@ class TPQueue {
     ITEM* next;
   };
   ITEM* head;
-  
   TPQueue::ITEM* create(const T& znach) {
     ITEM* uk = new ITEM;
     uk->data = znach;
