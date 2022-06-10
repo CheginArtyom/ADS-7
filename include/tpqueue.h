@@ -1,8 +1,8 @@
-// Copyright 2022 NNTU-CS
+// Copyright 2022 CheginArtyom
 #ifndef INCLUDE_TPQUEUE_H_
 #define INCLUDE_TPQUEUE_H_
 
-struct SYM
+struct SYM {
   char ch;
   int prior;
 };
@@ -10,18 +10,19 @@ struct SYM
 template<typename T>
 class TPQueue {
  private:
- ITEM* head;
   struct ITEM {
     T data;
     ITEM* next;
   };
+  ITEM* head;
+  
   TPQueue::ITEM* create(const T& znach) {
     ITEM* uk = new ITEM;
     uk->data = znach;
     uk->next = nullptr;
     return uk;
   }
-  
+
  public:
   TPQueue() :head(nullptr) {}
   T pop() {
