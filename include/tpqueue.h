@@ -2,7 +2,7 @@
 #ifndef INCLUDE_TPQUEUE_H_
 #define INCLUDE_TPQUEUE_H_
 
-struct DATA {
+struct SYM
   char ch;
   int prior;
 };
