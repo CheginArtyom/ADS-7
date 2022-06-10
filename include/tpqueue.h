@@ -2,13 +2,12 @@
 #ifndef INCLUDE_TPQUEUE_H_
 #define INCLUDE_TPQUEUE_H_
 
-template<typename T>
-
 struct DATA {
   char ch;
   int prior;
 };
 
+template<typename T>
 class TPQueue {
  private:
  ITEM* head;
